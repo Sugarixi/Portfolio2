@@ -1,0 +1,14 @@
+:root {
+    --Black: #000000;
+    --DarkestPurple: #151d38;
+    --DarkPurple: #1d2951;
+    --MediumPurple: #545aa7;
+    --LightPurple: #e6e6fa;
+    --GradientDark: #2d2758;
+    --GradientLight: #a391c5;
+    --ScrollDark: #35396d;
+    --ScrollLight: rgba(0, 0, 0, 0.2);
+    --CloudShadowDark: rgba(14, 21, 41, 0.2);
+    --CloudMediumDark: rgba(53, 57, 109, 0.2);
+    --CloudLightDark: rgba(204, 204, 221, 0.2);
+  }

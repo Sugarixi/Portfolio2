@@ -1,0 +1,30 @@
+:root {
+    --Black: #ffffff;
+    --DarkestPurple: rgb(255, 246, 242);
+    --DarkPurple: #ffecdb;
+    --MediumPurple: #ffcac3;
+    --LightPurple: #fda8a2;
+    --GradientDark: #ffffff;
+    --GradientLight: #ffa6b3;
+    --ScrollDark: #fae0ca;
+    --ScrollLight: rgb(255, 246, 242);
+    --CloudShadowDark: #ffc3b896;
+    --CloudMediumDark: #ffbfb785;
+    --CloudLightDark: #ffb3ae73;
+  }
+
+/* 
+    --Black: #ffffff;
+    --DarkestPurple: rgb(220, 234, 250);
+    --DarkPurple: rgb(177, 199, 228);
+    --MediumPurple: rgb(129, 159, 199);
+    --LightPurple: rgb(98, 129, 170);
+    --GradientDark: rgb(189, 206, 253);
+    --GradientLight: rgb(255, 255, 255);
+    --ScrollDark: #c8cee7;
+    --ScrollLight: rgba(45, 39, 68, 0.2);
+    --CloudShadowDark: rgba(145, 145, 156, 0.2);
+    --CloudMediumDark: rgba(53, 57, 109, 0.2);
+    --CloudLightDark: rgba(111, 115, 126, 0.2);
+
+    */

@@ -26,10 +26,10 @@ export default function About() {
             <a href="mailto:sugarixi@gmail.com" target="_blank">
               <FontAwesomeIcon icon={solid("envelope")} />
             </a>
-            <a className={Styles.cv}>
+            <a>
               <span className="fa-layers">
                 <FontAwesomeIcon icon={solid("file")} />
-                <span className="fa-layers-text">CV</span>
+                <span className={"fa-layers-text " + Styles.cv}>CV</span>
               </span>
             </a>
           </div>

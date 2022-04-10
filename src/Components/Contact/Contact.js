@@ -59,9 +59,11 @@ export default function Contact(props) {
         body: data,
       }).then((response) => {
         if (response.status == 200) {
-          alert("WORKING");
+          alert("Your message has been sent!");
         } else {
-          alert("not working");
+          alert(
+            "An error has occured and your message was not sent. Please try again later!"
+          );
         }
       });
     }, 2500);

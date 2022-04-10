@@ -1,33 +1,36 @@
 import memegeneratorImg from "./memegenerator.png";
 import portfolio1Img from "./portfolio1.png";
+import portfolio2Img from "./portfolio2.png";
+import tenziesImg from "./tenzies.png";
+import quizzicalImg from "./quizzical.png";
 
 export default [
   {
     id: 1,
-    imagePath: memegeneratorImg,
+    imagePath: portfolio2Img,
     title: "Portfolio 2.0",
     description:
       "You are here right now! I wanted my portfolio to reflect my style but at the same time show off my skills.",
-    websiteLink: "https://sugarixi.github.io/MemeGenerator/",
-    githubLink: "https://github.com/Sugarixi/MemeGenerator",
+    websiteLink: "https://sugarixi.github.io/Portfolio2",
+    githubLink: "https://github.com/Sugarixi/Portfolio2",
   },
   {
     id: 2,
-    imagePath: memegeneratorImg,
+    imagePath: quizzicalImg,
     title: "Quizzical",
     description:
       "5th and last project done during Scrimba's React basics course. In this project I had to use more complicated and advanced APIs together with multi-hirarchy components that have to share states and information between them without deriving the states.",
-    websiteLink: "https://www.google.com",
-    githubLink: "https://www.google.com",
+    websiteLink: "https://sugarixi.github.io/Quizzical",
+    githubLink: "https://github.com/Sugarixi/Quizzical",
   },
   {
     id: 3,
-    imagePath: memegeneratorImg,
+    imagePath: tenziesImg,
     title: "Tenzies",
     description:
       "4th project done during Scrimba's React basics course. This project was slightly more complicated than Meme Generator, with more advanced usage of React hooks and lifecycles",
-    websiteLink: "https://www.google.com",
-    githubLink: "https://www.google.com",
+    websiteLink: "https://sugarixi.github.io/Tenzies",
+    githubLink: "https://github.com/Sugarixi/Tenzies",
   },
   {
     id: 4,

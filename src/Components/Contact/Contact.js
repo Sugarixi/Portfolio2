@@ -1,6 +1,5 @@
 import React from "react";
 import Styles from "./Contact.module.css";
-import Letter from "./Letter";
 import LetterStyles from "./Letter.module.css";
 
 export default function Contact(props) {
@@ -17,16 +16,7 @@ export default function Contact(props) {
   ]);
 
   function handleSend(e) {
-    e.preventDefault();
-
     if (!document.contactForm.checkValidity()) {
-      if (document.getElementById("nameInput").value === "") {
-        alert("please write your name");
-      } else if (document.getElementById("msgInput").value === "") {
-        alert("please add message");
-      } else {
-        alert("please write a correct email address");
-      }
       return false;
     }
 
@@ -120,3 +110,7 @@ export default function Contact(props) {
     </div>
   );
 }
+
+/*
+
+*/

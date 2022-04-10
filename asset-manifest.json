@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/Portfolio2/static/css/main.d563fddf.css",
-    "main.js": "/Portfolio2/static/js/main.79ad920e.js",
-    "static/media/portfolio1.png": "/Portfolio2/static/media/portfolio1.9fd3039dd3ca0a867ac2.png",
-    "static/media/memegenerator.png": "/Portfolio2/static/media/memegenerator.47c1aeb8832fb7fa546a.png",
+    "main.css": "/Portfolio2/static/css/main.45772d40.css",
+    "main.js": "/Portfolio2/static/js/main.be4066c3.js",
+    "static/media/portfolio2.png": "/Portfolio2/static/media/portfolio2.b8295df4ee258de7ffc0.png",
+    "static/media/memegenerator.png": "/Portfolio2/static/media/memegenerator.5d2998617f74977871ff.png",
+    "static/media/portfolio1.png": "/Portfolio2/static/media/portfolio1.28b03261bcd09750bbe6.png",
+    "static/media/tenzies.png": "/Portfolio2/static/media/tenzies.52093ec7533d19c30483.png",
+    "static/media/quizzical.png": "/Portfolio2/static/media/quizzical.c6e4b3bef23a2a038c43.png",
     "index.html": "/Portfolio2/index.html",
-    "main.d563fddf.css.map": "/Portfolio2/static/css/main.d563fddf.css.map",
-    "main.79ad920e.js.map": "/Portfolio2/static/js/main.79ad920e.js.map"
+    "main.45772d40.css.map": "/Portfolio2/static/css/main.45772d40.css.map",
+    "main.be4066c3.js.map": "/Portfolio2/static/js/main.be4066c3.js.map"
   },
   "entrypoints": [
-    "static/css/main.d563fddf.css",
-    "static/js/main.79ad920e.js"
+    "static/css/main.45772d40.css",
+    "static/js/main.be4066c3.js"
   ]
 }

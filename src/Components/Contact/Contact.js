@@ -19,6 +19,17 @@ export default function Contact(props) {
   function handleSend(e) {
     e.preventDefault();
 
+    if (!document.contactForm.checkValidity()) {
+      if (document.getElementById("nameInput").value === "") {
+        alert("please write your name");
+      } else if (document.getElementById("msgInput").value === "") {
+        alert("please add message");
+      } else {
+        alert("please write a correct email address");
+      }
+      return false;
+    }
+
     setLetterClasses((oldClasses) => {
       const newClasses = [...oldClasses];
       if (!oldClasses.includes(LetterStyles.letterIn)) {
@@ -47,7 +58,6 @@ export default function Contact(props) {
       setLetterClasses([LetterStyles.letter]);
       setFlapClasses([LetterStyles.envelopeFlap]);
       setEnvelopeClasses([LetterStyles.envelope]);
-      //document.contactForm.submit();
 
       const data = new URLSearchParams();
       for (const pair of new FormData(document.contactForm)) {
@@ -78,12 +88,7 @@ export default function Contact(props) {
           <div className={flapClasses.join(" ")}></div>
         </div>
 
-        <form
-          name="contactForm"
-          className={Styles.form}
-          action="https://formsubmit.co/sugarixi@gmail.com"
-          method="POST"
-        >
+        <form name="contactForm" className={Styles.form}>
           <input type="hidden" name="_captcha" value="false"></input>
           <div className={Styles.title}>Contact Me 🖊️</div>
           <input
@@ -94,7 +99,7 @@ export default function Contact(props) {
             required
           ></input>
           <input
-            type="text"
+            type="email"
             placeholder="Email:"
             name="email"
             id="emailInput"

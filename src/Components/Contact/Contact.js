@@ -20,6 +20,8 @@ export default function Contact(props) {
       return false;
     }
 
+    e.preventDefault();
+
     setLetterClasses((oldClasses) => {
       const newClasses = [...oldClasses];
       if (!oldClasses.includes(LetterStyles.letterIn)) {

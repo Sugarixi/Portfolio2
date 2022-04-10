@@ -1,0 +1,73 @@
+.envelope{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    width: 300px;
+    transform: translateY(25%);
+    opacity: 1;
+    transition: 0.5s;
+}
+
+.envelopePoof{
+    transform: translateY(-25%);
+    opacity: 0;
+    transition-delay: 1s;
+}
+
+
+.envelopeFlap {
+    position:absolute;
+    width: 0;
+    border-left: 150px solid transparent;
+    border-right: 150px solid transparent;
+    border-bottom: 100px solid transparent;
+    border-top: 100px solid rgb(119, 119, 119);
+    z-index: 4;
+    transform: translateY(-100%) rotate(180deg) scaleY(1);
+    transition: 0.5s;
+}
+
+.envelopeFlapIn {
+    transform: translateY(0%) rotate(180deg) scaleY(-1);
+    z-index: 10;
+    transition-delay: 0.5s;
+}
+
+.envelopeBack {
+    position:absolute;
+    width: 0;
+    border-left: 150px solid rgb(119, 119, 119);
+    border-right: 150px solid rgb(119, 119, 119);
+    border-bottom: 100px solid rgb(119, 119, 119);
+    border-top: 100px solid rgb(119, 119, 119);
+    z-index: 1;
+}
+
+.envelopeFront {
+    position:absolute;
+    width: 0;
+    border-left: 150px solid rgb(192, 192, 192);
+    border-right: 150px solid rgb(160, 160, 160);
+    border-bottom: 100px solid rgb(160, 160, 160);
+    border-top: 100px solid transparent;
+    z-index: 6;
+  }
+
+  .letter{
+    position:absolute;
+    width: 250px;
+    height: 130px;
+    background-color: rgb(255, 255, 255);
+    z-index: 5;
+    border-radius: 5px;
+    transform: translateY(-30px);
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s;
+}
+
+.letterIn {
+    transform: translateY(10px);
+    transition-delay: 0s;
+}

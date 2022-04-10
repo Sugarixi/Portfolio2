@@ -1,0 +1,182 @@
+.container{
+    height: 100vh;
+    width: 100vw;
+    background-color: var(--DarkPurple);
+    color: var(--LightPurple);
+    z-index: 10;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.infoBlock{
+    padding-left: 3rem;
+}
+
+
+.aboutMe { 
+    font-size: 3rem;
+    display: flex;
+    flex-direction: row;
+    padding-bottom: 1rem;
+    position: relative;
+    z-index: 1;
+}
+
+
+.title {
+    margin-right: auto;
+}
+
+.title::after {
+    content: "";
+    position: absolute;
+    background-color: var(--DarkestPurple);
+    -webkit-box-shadow: 0 0 8px var(--DarkestPurple);
+    box-shadow: 0 0 8px var(--DarkestPurple);
+    height: 2rem;
+    left: 0.5rem;
+    bottom: 1rem;
+    width: 23.5rem;
+    z-index: -1;
+}
+
+.linksIcons{  
+    width:40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.linksIcons > a {
+  color: var(--LightPurple);
+}
+
+
+.linksIcons > a:hover {
+  color: var(--DarkestPurple);
+}
+
+.cv{
+  color: var(--DarkPurple);
+  font-size: 1.5rem;
+}
+
+.aboutMeText {
+    font-family: 'Karla', sans-serif;
+    font-size: 1.5rem;
+    padding-bottom: 3rem;
+}
+ 
+.skills { 
+    font-size: 3rem;
+    position: relative;
+    z-index: 2;
+    }
+
+.titleSkills{
+    padding-bottom: 1rem;
+}
+
+.titleSkills::after {
+    content: "";
+    position: absolute;
+    background-color: var(--DarkestPurple);
+    -webkit-box-shadow: 0 0 8px var(--DarkestPurple);
+    box-shadow: 0 0 8px var(--DarkestPurple);
+    height: 2rem;
+    left: 0.5rem;
+    bottom: 4.5rem;
+    width: 21.5rem;
+    z-index: -1;
+}
+
+
+.skillsIcons{  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.character{
+    height: 100%;
+}
+
+.svg {
+    height: 100%;
+  }
+
+  .swingRightArm {
+    animation: swingRightArm 2s infinite;
+    animation-timing-function: ease-in-out;
+    transform-box: fill-box;
+    transform-origin: 50% 0;
+  }
+  @keyframes swingRightArm {
+    0% {
+      transform: rotate(15deg);
+    }
+    50% {
+      transform: rotate(-15deg);
+    }
+    100% {
+      transform: rotate(15deg);
+    }
+  }
+  
+  .swingLeftArm {
+    animation: swingLeftArm 2s infinite;
+    animation-timing-function: ease-in-out;
+    transform-box: fill-box;
+    transform-origin: 50% 0;
+  }
+  @keyframes swingLeftArm {
+    0% {
+      transform: rotate(-15deg);
+    }
+    50% {
+      transform: rotate(15deg);
+    }
+    100% {
+      transform: rotate(-15deg);
+    }
+  }
+  
+  .swingRightleg {
+    animation: swingRightLeg 2.5s infinite;
+    animation-timing-function: ease-in-out;
+    transform-box: fill-box;
+    transform-origin: 50% 0;
+  }
+  @keyframes swingRightLeg {
+    0% {
+      transform: rotate(15deg);
+    }
+    50% {
+      transform: rotate(-15deg);
+    }
+    100% {
+      transform: rotate(15deg);
+    }
+  }
+  
+  .swingLeftleg {
+    animation: swingLeftLeg 2.5s infinite;
+    animation-timing-function: ease-in-out;
+    transform-box: fill-box;
+    transform-origin: 50% 0;
+  }
+  @keyframes swingLeftLeg {
+    0% {
+      transform: rotate(-15deg);
+    }
+    50% {
+      transform: rotate(15deg);
+    }
+    100% {
+      transform: rotate(-15deg);
+    }
+  }
+  

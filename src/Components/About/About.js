@@ -36,11 +36,13 @@ export default function About() {
         </div>
         <div className={Styles.aboutMeText}>
           My name is Tuire Nissinen. I'm a front end developer based in Finland.
-          I love learning and experimenting with new ways to move pixels around.
-          On my free time you can find me on long walks with my dog🐶 or
-          slashing noobs (very much being one myself🧙‍♀️) in Dota 2. With quite a
-          bit of customer service experience aquired I can handle anybody. Don't
-          be afraid to hit me up!
+          I learned the basics of HTML and CSS during my studies at Taitotalo.
+          After graduating I have studied JavaScript and React.js independently
+          through various online courses and by just by trying things out! At
+          the moment I'm working my way through Scrimba's front end developer
+          career path to improve my skills in JavaScript and React. Also with
+          quite a bit of customer service experience acquired I can handle
+          anybody. Don't be afraid to hit me up!
         </div>
         <div className={Styles.skills}>
           <div className={Styles.titleSkills}>My Toolkit 💻</div>

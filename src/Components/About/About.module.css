@@ -1,3 +1,21 @@
+@media only screen and (min-width: 1421px) {
+  :root {
+    --title: 3rem;
+    --body: 1.5rem;
+  }
+}
+@media only screen and (max-width: 1420px) {
+  :root {
+    --title: 2.5rem;
+    --body: 1.2rem;
+  }
+}
+
+@media only screen and (max-width: 1200px) {
+  .container {
+    padding-bottom: 100px;
+  }
+}
 .container{
     height: 100vh;
     width: 100vw;
@@ -11,42 +29,36 @@
 }
 
 .infoBlock{
-    padding-left: 3rem;
+    margin-left: 1.5rem;
+    margin-right: 3rem;
 }
 
 
 .aboutMe { 
-    font-size: 3rem;
     display: flex;
     flex-direction: row;
     padding-bottom: 1rem;
     position: relative;
     z-index: 1;
 }
-
-
-.title {
-    margin-right: auto;
+@media only screen and (max-width: 1420px) {
+  .aboutMe {
+    flex-direction: column;
+  }
 }
 
-.title::after {
-    content: "";
-    position: absolute;
-    background-color: var(--DarkestPurple);
-    -webkit-box-shadow: 0 0 8px var(--DarkestPurple);
-    box-shadow: 0 0 8px var(--DarkestPurple);
-    height: 2rem;
-    left: 0.5rem;
-    bottom: 1rem;
-    width: 23.5rem;
-    z-index: -1;
+.title {
+  margin-right: auto;
+  font-size: var(--title);
+  width: 100%;
 }
 
 .linksIcons{  
-    width:40%;
+    width:45%;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-size: var(--title);
 
 }
 
@@ -67,31 +79,18 @@
 
 .aboutMeText {
     font-family: 'Karla', sans-serif;
-    font-size: 1.5rem;
-    padding-bottom: 3rem;
+    font-size: var(--body);
+    padding-bottom: 3em;
 }
  
 .skills { 
-    font-size: 3rem;
     position: relative;
     z-index: 2;
     }
 
 .titleSkills{
     padding-bottom: 1rem;
-}
-
-.titleSkills::after {
-    content: "";
-    position: absolute;
-    background-color: var(--DarkestPurple);
-    -webkit-box-shadow: 0 0 8px var(--DarkestPurple);
-    box-shadow: 0 0 8px var(--DarkestPurple);
-    height: 2rem;
-    left: 0.5rem;
-    bottom: 4.2rem;
-    width: 21.5rem;
-    z-index: -1;
+    font-size: var(--title);
 }
 
 
@@ -99,85 +98,6 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    font-size: var(--title);
 }
 
-.character{
-    height: 100%;
-}
-
-.svg {
-    height: 100%;
-  }
-
-  .swingRightArm {
-    animation: swingRightArm 2s infinite;
-    animation-timing-function: ease-in-out;
-    transform-box: fill-box;
-    transform-origin: 50% 0;
-  }
-  @keyframes swingRightArm {
-    0% {
-      transform: rotate(15deg);
-    }
-    50% {
-      transform: rotate(-15deg);
-    }
-    100% {
-      transform: rotate(15deg);
-    }
-  }
-  
-  .swingLeftArm {
-    animation: swingLeftArm 2s infinite;
-    animation-timing-function: ease-in-out;
-    transform-box: fill-box;
-    transform-origin: 50% 0;
-  }
-  @keyframes swingLeftArm {
-    0% {
-      transform: rotate(-15deg);
-    }
-    50% {
-      transform: rotate(15deg);
-    }
-    100% {
-      transform: rotate(-15deg);
-    }
-  }
-  
-  .swingRightleg {
-    animation: swingRightLeg 2.5s infinite;
-    animation-timing-function: ease-in-out;
-    transform-box: fill-box;
-    transform-origin: 50% 0;
-  }
-  @keyframes swingRightLeg {
-    0% {
-      transform: rotate(15deg);
-    }
-    50% {
-      transform: rotate(-15deg);
-    }
-    100% {
-      transform: rotate(15deg);
-    }
-  }
-  
-  .swingLeftleg {
-    animation: swingLeftLeg 2.5s infinite;
-    animation-timing-function: ease-in-out;
-    transform-box: fill-box;
-    transform-origin: 50% 0;
-  }
-  @keyframes swingLeftLeg {
-    0% {
-      transform: rotate(-15deg);
-    }
-    50% {
-      transform: rotate(15deg);
-    }
-    100% {
-      transform: rotate(-15deg);
-    }
-  }
-  

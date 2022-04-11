@@ -1,0 +1,86 @@
+.character{
+    height: 100%; 
+  }
+
+  @media only screen and (max-width: 950px) {
+    .character {
+      display:none;
+    }
+  }
+  
+.svg {
+    height: 100%;
+  }
+
+  .swingRightArm {
+    animation: swingRightArm 2s infinite;
+    animation-timing-function: ease-in-out;
+    transform-box: fill-box;
+    transform-origin: 50% 0;
+  }
+  @keyframes swingRightArm {
+    0% {
+      transform: rotate(15deg);
+    }
+    50% {
+      transform: rotate(-15deg);
+    }
+    100% {
+      transform: rotate(15deg);
+    }
+  }
+  
+  .swingLeftArm {
+    animation: swingLeftArm 2s infinite;
+    animation-timing-function: ease-in-out;
+    transform-box: fill-box;
+    transform-origin: 50% 0;
+  }
+  @keyframes swingLeftArm {
+    0% {
+      transform: rotate(-15deg);
+    }
+    50% {
+      transform: rotate(15deg);
+    }
+    100% {
+      transform: rotate(-15deg);
+    }
+  }
+  
+  .swingRightleg {
+    animation: swingRightLeg 2.5s infinite;
+    animation-timing-function: ease-in-out;
+    transform-box: fill-box;
+    transform-origin: 50% 0;
+  }
+  @keyframes swingRightLeg {
+    0% {
+      transform: rotate(15deg);
+    }
+    50% {
+      transform: rotate(-15deg);
+    }
+    100% {
+      transform: rotate(15deg);
+    }
+  }
+  
+  .swingLeftleg {
+    animation: swingLeftLeg 2.5s infinite;
+    animation-timing-function: ease-in-out;
+    transform-box: fill-box;
+    transform-origin: 50% 0;
+  }
+  @keyframes swingLeftLeg {
+    0% {
+      transform: rotate(-15deg);
+    }
+    50% {
+      transform: rotate(15deg);
+    }
+    100% {
+      transform: rotate(-15deg);
+    }
+  }
+  

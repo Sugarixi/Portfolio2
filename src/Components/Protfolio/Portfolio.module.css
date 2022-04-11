@@ -1,3 +1,4 @@
+
 .main{
     height: 100vh;
     width: 100vw;
@@ -9,6 +10,7 @@
     display:flex;
     align-items: center;
     justify-content: center;
+    flex-wrap: wrap;
 }
 
 .carouselContainer {
@@ -18,3 +20,9 @@
 }
 
 
+@media only screen and (max-width: 1200px) {
+    .main {
+      height: fit-content;
+      padding-bottom: 100px;
+    }
+  }

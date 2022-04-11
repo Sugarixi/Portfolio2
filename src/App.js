@@ -42,7 +42,7 @@ function App() {
   return (
     <div className="app">
       <a name="Main" />
-      <div id="myID" style={{ display: isArrowShown ? "block" : "none" }}>
+      <div style={{ display: isArrowShown ? "block" : "none" }}>
         <ArrowUp location={"#Main"} />
       </div>
       <Nav

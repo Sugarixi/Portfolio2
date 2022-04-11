@@ -16,14 +16,16 @@
 
 
 .form {
-    width: 20vw;
     color:var(--LightPurple);
     display: flex;
     flex-direction: column;
     padding-left: 1rem;
+    min-width: 300px;
+    width: 20vw;
 }
 
 .title {
+    text-align: center;
     font-size: 2rem;
     padding-bottom: 7px;
 }
@@ -54,6 +56,12 @@
     height: 15vh;
 }
 
+
+.buttons{
+    display:flex;
+    justify-content: space-around;
+}
+
 .buttons > button {
     cursor: pointer;
     font-family: 'Karla', sans-serif;
@@ -81,3 +89,13 @@
     color: var(--LightPurple);
     text-align: center;
 }
+
+
+@media only screen and (max-width: 1200px) {
+    .container {
+        flex-direction: column;
+    }
+    .form {
+        padding-left: 0;
+    }
+  }

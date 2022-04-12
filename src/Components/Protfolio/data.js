@@ -47,7 +47,7 @@ export default [
     title: "Portfolio 1.0",
     description:
       "My first website i created a few years ago. Made using HTML and CSS with few vanilla javascript lines included. Enter at your own risk. Your eyes may melt haha.. :)",
-    websiteLink: "https://sugarixi.github.io/",
-    githubLink: "https://github.com/Sugarixi/sugarixi.github.io",
+    websiteLink: "https://sugarixi.github.io/portfolio1",
+    githubLink: "https://github.com/Sugarixi/portfolio1",
   },
 ];

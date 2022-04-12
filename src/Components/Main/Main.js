@@ -57,7 +57,6 @@ export default function Main() {
   }
 
   function getStars() {
-    debugger;
     const numOfStars = Math.round(window.innerWidth / 28);
     const stars = [];
     for (var i = 0; i < numOfStars; i++) {

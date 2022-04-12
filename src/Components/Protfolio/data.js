@@ -11,8 +11,8 @@ export default [
     title: "Portfolio 2.0",
     description:
       "You are here right now! I wanted my portfolio to reflect my style but at the same time show off my skills.",
-    websiteLink: "https://sugarixi.github.io/Portfolio2",
-    githubLink: "https://github.com/Sugarixi/Portfolio2",
+    websiteLink: "https://sugarixi.github.io/",
+    githubLink: "https://github.com/Sugarixi/sugarixi.github.io",
   },
   {
     id: 2,

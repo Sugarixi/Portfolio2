@@ -57,7 +57,8 @@ export default function Main() {
   }
 
   function getStars() {
-    const numOfStars = 80;
+    debugger;
+    const numOfStars = Math.round(window.innerWidth / 28);
     const stars = [];
     for (var i = 0; i < numOfStars; i++) {
       const left = Math.random() * window.innerWidth;

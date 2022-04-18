@@ -3,10 +3,17 @@ import portfolio1Img from "./portfolio1.png";
 import portfolio2Img from "./portfolio2.png";
 import tenziesImg from "./tenzies.png";
 import quizzicalImg from "./quizzical.png";
+import devfinderImg from "./devfinder.png";
 
 export default [
   {
     id: 1,
+    imagePath: devfinderImg,
+    title: "DevFinder",
+    description: "COMING SOON! GitHub user search app.",
+  },
+  {
+    id: 2,
     imagePath: portfolio2Img,
     title: "Portfolio 2.0",
     description:
@@ -15,7 +22,7 @@ export default [
     githubLink: "https://github.com/Sugarixi/sugarixi.github.io",
   },
   {
-    id: 2,
+    id: 3,
     imagePath: quizzicalImg,
     title: "Quizzical",
     description:
@@ -24,7 +31,7 @@ export default [
     githubLink: "https://github.com/Sugarixi/Quizzical",
   },
   {
-    id: 3,
+    id: 4,
     imagePath: tenziesImg,
     title: "Tenzies",
     description:
@@ -33,7 +40,7 @@ export default [
     githubLink: "https://github.com/Sugarixi/Tenzies",
   },
   {
-    id: 4,
+    id: 5,
     imagePath: memegeneratorImg,
     title: "Meme Generator",
     description:
@@ -42,7 +49,7 @@ export default [
     githubLink: "https://github.com/Sugarixi/MemeGenerator",
   },
   {
-    id: 5,
+    id: 6,
     imagePath: portfolio1Img,
     title: "Portfolio 1.0",
     description:

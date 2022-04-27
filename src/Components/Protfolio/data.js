@@ -10,7 +10,10 @@ export default [
     id: 1,
     imagePath: devfinderImg,
     title: "DevFinder",
-    description: "COMING SOON! GitHub user search app.",
+    description:
+      "A Simple app to search for Github users. Search returns a brief info of the user. Design is based on a Fronend Mentor challenge. I used GitHub users API to pull the info.",
+    websiteLink: "https://sugarixi.github.io/github-user-search/",
+    githubLink: "https://github.com/Sugarixi/github-user-search",
   },
   {
     id: 2,
